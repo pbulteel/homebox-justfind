@@ -13,11 +13,11 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authtokens"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/notifier"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/predicate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/user"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authtokens"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/notifier"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/predicate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/user"
 )
 
 // UserQuery is the builder for querying User entities.

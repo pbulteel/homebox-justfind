@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
 )
 
 func Test_SetAuthContext(t *testing.T) {

@@ -6,12 +6,12 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services/reporting/eventbus"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/itemtemplate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/tag"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/templatefield"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services/reporting/eventbus"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/itemtemplate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/tag"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/templatefield"
 )
 
 type ItemTemplatesRepository struct {

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 )
 
 func TestItemService_AddAttachment(t *testing.T) {

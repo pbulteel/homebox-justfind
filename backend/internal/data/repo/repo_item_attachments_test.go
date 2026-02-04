@@ -8,9 +8,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/attachment"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/attachment"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 )
 
 func TestAttachmentRepo_Create(t *testing.T) {

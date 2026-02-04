@@ -11,9 +11,9 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/item"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/tag"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/item"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/tag"
 )
 
 // TagCreate is the builder for creating a Tag entity.

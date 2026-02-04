@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 )
 
 // GetHBURL determines the base URL of the Homebox instance using the following priority:

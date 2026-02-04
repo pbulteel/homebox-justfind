@@ -11,8 +11,8 @@ import (
 	"github.com/containrrr/shoutrrr"
 	"github.com/google/uuid"
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/types"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/types"
 )
 
 type Latest struct {
@@ -90,7 +90,7 @@ func (svc *BackgroundService) SendNotifiersToday(ctx context.Context) error {
 }
 
 func (svc *BackgroundService) GetLatestGithubRelease(ctx context.Context) error {
-	url := "https://api.github.com/repos/sysadminsmedia/homebox/releases/latest"
+	url := "https://api.github.com/repos/pbulteel/homebox-justfind/releases/latest"
 
 	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
 	if err != nil {

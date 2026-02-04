@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services/reporting/eventbus"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/mailer"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services/reporting/eventbus"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/mailer"
 )
 
 type app struct {

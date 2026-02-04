@@ -11,10 +11,10 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/itemtemplate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/location"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/templatefield"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/itemtemplate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/location"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/templatefield"
 )
 
 // ItemTemplateCreate is the builder for creating a ItemTemplate entity.

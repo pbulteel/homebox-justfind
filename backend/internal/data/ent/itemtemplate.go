@@ -11,9 +11,9 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/itemtemplate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/location"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/itemtemplate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/location"
 )
 
 // ItemTemplate is the model entity for the ItemTemplate schema.

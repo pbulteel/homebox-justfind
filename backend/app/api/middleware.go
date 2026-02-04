@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	v1 "github.com/sysadminsmedia/homebox/backend/app/api/handlers/v1"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/validate"
+	v1 "github.com/pbulteel/homebox-justfind/backend/app/api/handlers/v1"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/validate"
 
 	"github.com/google/uuid"
 	"github.com/hay-kot/httpkit/errchain"

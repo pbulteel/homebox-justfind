@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/textutils"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/textutils"
 )
 
 func TestItemsRepository_AccentInsensitiveSearch(t *testing.T) {

@@ -11,14 +11,14 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/groupinvitationtoken"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/item"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/itemtemplate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/location"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/notifier"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/tag"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/user"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/groupinvitationtoken"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/item"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/itemtemplate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/location"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/notifier"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/tag"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/user"
 )
 
 // GroupCreate is the builder for creating a Group entity.

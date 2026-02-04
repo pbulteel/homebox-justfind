@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/itemtemplate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/predicate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/itemtemplate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/predicate"
 )
 
 // ItemTemplateDelete is the builder for deleting a ItemTemplate entity.

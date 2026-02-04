@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 	"golang.org/x/image/font/gofont/gobold"
 	"golang.org/x/image/font/gofont/gomedium"
 )

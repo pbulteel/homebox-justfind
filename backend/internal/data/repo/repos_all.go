@@ -2,9 +2,9 @@
 package repo
 
 import (
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services/reporting/eventbus"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services/reporting/eventbus"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 )
 
 // AllRepos is a container for all the repository interfaces

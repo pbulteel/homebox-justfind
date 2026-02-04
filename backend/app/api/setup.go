@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/currencies"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/currencies"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 )
 
 // setupStorageDir handles the creation and validation of the storage directory.

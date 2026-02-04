@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/currencies"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services/reporting/eventbus"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/faker"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/currencies"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services/reporting/eventbus"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/faker"
 )
 
 var (

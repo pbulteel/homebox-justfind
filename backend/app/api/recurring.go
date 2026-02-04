@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/hay-kot/httpkit/graceful"
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/utils"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/utils"
 	"gocloud.dev/pubsub"
 )
 

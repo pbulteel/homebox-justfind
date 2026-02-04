@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 )
 
 //go:embed all:postgres

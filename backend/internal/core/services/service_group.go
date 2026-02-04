@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/hasher"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/hasher"
 )
 
 type GroupService struct {

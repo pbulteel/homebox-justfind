@@ -9,8 +9,8 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authroles"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authtokens"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authroles"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authtokens"
 )
 
 // AuthRoles is the model entity for the AuthRoles schema.

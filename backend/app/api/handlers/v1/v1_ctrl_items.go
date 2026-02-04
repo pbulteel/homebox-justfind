@@ -14,10 +14,10 @@ import (
 	"github.com/hay-kot/httpkit/errchain"
 	"github.com/hay-kot/httpkit/server"
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/validate"
-	"github.com/sysadminsmedia/homebox/backend/internal/web/adapters"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/validate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/web/adapters"
 )
 
 // HandleItemsGetAll godoc

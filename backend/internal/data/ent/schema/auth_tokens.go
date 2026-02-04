@@ -8,7 +8,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/index"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/schema/mixins"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/schema/mixins"
 )
 
 // AuthTokens holds the schema definition for the AuthTokens entity.

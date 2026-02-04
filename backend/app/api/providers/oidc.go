@@ -14,8 +14,8 @@ import (
 
 	"github.com/coreos/go-oidc/v3/oidc"
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
 	"golang.org/x/oauth2"
 )
 

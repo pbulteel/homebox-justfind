@@ -2,10 +2,10 @@ package ent
 
 import (
 	"entgo.io/ent/dialect/sql"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/item"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/predicate"
-	conf "github.com/sysadminsmedia/homebox/backend/internal/sys/config"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/textutils"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/item"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/predicate"
+	conf "github.com/pbulteel/homebox-justfind/backend/internal/sys/config"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/textutils"
 )
 
 // AccentInsensitiveContains creates a predicate that performs accent-insensitive text search.

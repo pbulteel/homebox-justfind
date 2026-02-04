@@ -12,10 +12,10 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authroles"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authtokens"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/predicate"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/user"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authroles"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authtokens"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/predicate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/user"
 )
 
 // AuthTokensUpdate is the builder for updating AuthTokens entities.

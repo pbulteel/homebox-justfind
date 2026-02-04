@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/rs/zerolog/log"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
 )
 
 func (a *app) SetupDemo() error {

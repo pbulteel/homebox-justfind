@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/hasher"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/hasher"
 )
 
 func TestAuthTokenRepo_CreateToken(t *testing.T) {

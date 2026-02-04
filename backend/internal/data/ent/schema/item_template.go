@@ -7,7 +7,7 @@ import (
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/index"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/schema/mixins"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/schema/mixins"
 )
 
 // ItemTemplate holds the schema definition for the ItemTemplate entity.

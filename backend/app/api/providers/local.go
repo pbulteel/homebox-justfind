@@ -3,7 +3,7 @@ package providers
 import (
 	"net/http"
 
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
 )
 
 type LocalProvider struct {

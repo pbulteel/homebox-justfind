@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services/reporting/eventbus"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/group"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/location"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/predicate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services/reporting/eventbus"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/group"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/location"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/predicate"
 )
 
 type LocationRepository struct {

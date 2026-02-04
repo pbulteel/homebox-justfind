@@ -8,7 +8,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/types"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/types"
 )
 
 // TestWipeInventory_Integration tests the complete wipe inventory flow

@@ -8,11 +8,11 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/hay-kot/httpkit/errchain"
-	"github.com/sysadminsmedia/homebox/backend/internal/core/services"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/repo"
-	"github.com/sysadminsmedia/homebox/backend/internal/sys/validate"
-	"github.com/sysadminsmedia/homebox/backend/internal/web/adapters"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/labelmaker"
+	"github.com/pbulteel/homebox-justfind/backend/internal/core/services"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/repo"
+	"github.com/pbulteel/homebox-justfind/backend/internal/sys/validate"
+	"github.com/pbulteel/homebox-justfind/backend/internal/web/adapters"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/labelmaker"
 )
 
 func generateOrPrint(ctrl *V1Controller, w http.ResponseWriter, r *http.Request, title string, description string, url string) error {

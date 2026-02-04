@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authroles"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/authtokens"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/hasher"
-	"github.com/sysadminsmedia/homebox/backend/pkgs/set"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authroles"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/authtokens"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/hasher"
+	"github.com/pbulteel/homebox-justfind/backend/pkgs/set"
 )
 
 type TokenRepository struct {

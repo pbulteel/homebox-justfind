@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
-	"github.com/sysadminsmedia/homebox/backend/internal/data/ent/user"
+	"github.com/pbulteel/homebox-justfind/backend/internal/data/ent/user"
 )
 
 // User is the model entity for the User schema.
