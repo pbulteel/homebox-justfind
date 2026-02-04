@@ -174,7 +174,7 @@ Press ^] three times within 1s to disconnect TTY.
 2025/07/11 22:33:29 goose: no migrations to run. current version: 20250706190000
 10:33PM INF ../../../go/src/app/app/api/handlers/v1/v1_ctrl_auth.go:98 > registering auth provider name=local
 10:33PM INF ../../../go/src/app/app/api/main.go:275 > Server is running on unix?path=/run/user/1000/homebox.sock
-10:33PM ERR ../../../go/src/app/app/api/main.go:403 > failed to get latest github release error="failed to make latest version request: Get \"https://api.github.com/repos/sysadminsmedia/homebox/releases/l
+10:33PM ERR ../../../go/src/app/app/api/main.go:403 > failed to get latest github release error="failed to make latest version request: Get \"https://api.github.com/repos/pbulteel/homebox-justfind/releases/l
 atest\": dial tcp: lookup api.github.com on [::1]:53: read udp [::1]:50951->[::1]:53: read: connection refused"
 10:33PM INF ../../../go/src/app/internal/web/mid/logger.go:36 > request received method=GET path=/ rid=hname/PoXyRgt6ol-000001
 10:33PM INF ../../../go/src/app/internal/web/mid/logger.go:41 > request finished method=GET path=/ rid=hname/PoXyRgt6ol-000001 status=0

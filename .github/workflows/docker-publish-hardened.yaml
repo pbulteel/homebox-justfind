@@ -28,7 +28,7 @@ permissions:
   attestations: write   # Required for signing and attestation (if needed)
 
 env:
-  DOCKERHUB_REPO: sysadminsmedia/homebox
+  DOCKERHUB_REPO: pbulteel/homebox-justfind
   GHCR_REPO: ghcr.io/${{ github.repository }}
 
 jobs:

@@ -3,7 +3,7 @@
 There are two main ways to run the application.
 
 1. As a [Docker](https://www.docker.com/) container.
-2. Using the correct executable for your platform by downloading it from the [Releases](https://github.com/sysadminsmedia/homebox/releases).
+2. Using the correct executable for your platform by downloading it from the [Releases](https://github.com/pbulteel/homebox-justfind/releases).
 
 ::: info Configuration Options
 The application can be configured using environment variables. You can find a list of all available options in the [configuration section](./configure/index).
@@ -13,7 +13,7 @@ The application can be configured using environment variables. You can find a li
 
 The following instructions assume Docker is already installed on your system. See [(Docker's official installation guide)](https://docs.docker.com/engine/install/)
 
-The official image is `ghcr.io/sysadminsmedia/homebox:latest`. For each image there are two tags, respectively the regular tag and $TAG-rootless, which uses a non-root image.
+The official image is `ghcr.io/pbulteel/homebox-justfind:latest`. For each image there are two tags, respectively the regular tag and $TAG-rootless, which uses a non-root image.
 
 ### Docker Run
 
@@ -34,8 +34,8 @@ $ docker run -d \
   --env TZ=Europe/Bucharest \
   --env HBOX_OPTIONS_ALLOW_ANALYTICS=false \
   --volume /path/to/data/folder/:/data \
-  ghcr.io/sysadminsmedia/homebox:latest
-# ghcr.io/sysadminsmedia/homebox:latest-rootless
+  ghcr.io/pbulteel/homebox-justfind:latest
+# ghcr.io/pbulteel/homebox-justfind:latest-rootless
 ```
 
 ### Docker Compose
@@ -45,8 +45,8 @@ $ docker run -d \
 ```yaml
 services:
   homebox:
-    image: ghcr.io/sysadminsmedia/homebox:latest
-#   image: ghcr.io/sysadminsmedia/homebox:latest-rootless
+    image: ghcr.io/pbulteel/homebox-justfind:latest
+#   image: ghcr.io/pbulteel/homebox-justfind:latest-rootless
     container_name: homebox
     restart: always
     environment:
@@ -85,21 +85,21 @@ You can learn more about Docker by [reading the official Docker documentation.](
 
 ## Windows
 
-1. Download the appropriate release for your CPU architecture from the [releases page on GitHub](https://github.com/sysadminsmedia/homebox/releases).
+1. Download the appropriate release for your CPU architecture from the [releases page on GitHub](https://github.com/pbulteel/homebox-justfind/releases).
 2. Extract the archive.
 3. Run `homebox.exe`. This will start the server on port 7745.
 4. You can test it by accessing http://localhost:7745.
 
 ## Linux
 
-1. Download the appropriate release for your CPU architecture from the [releases page on GitHub](https://github.com/sysadminsmedia/homebox/releases).
+1. Download the appropriate release for your CPU architecture from the [releases page on GitHub](https://github.com/pbulteel/homebox-justfind/releases).
 2. Extract the archive.
 3. Run the `homebox` executable.
 4. The web interface will be accessible on port 7745 by default. Access the page by navigating to `http://server.local.ip.address:7745/` (replace with the right ip address)
 
 ## macOS
 
-1. Download the appropriate release for your CPU architecture from the [releases page on GitHub](https://github.com/sysadminsmedia/homebox/releases). (Use `homebox_Darwin_x86_64.tar.gz` for Intel-based macs and `homebox_Darwin_arm64.tar.gz` for Apple Silicon)
+1. Download the appropriate release for your CPU architecture from the [releases page on GitHub](https://github.com/pbulteel/homebox-justfind/releases). (Use `homebox_Darwin_x86_64.tar.gz` for Intel-based macs and `homebox_Darwin_arm64.tar.gz` for Apple Silicon)
 2. Extract the archive.
 3. Run the `homebox` executable.
 4. The web interface will be accessible on port 7745 by default. Access the page by navigating to `http://local.ip.address:7745/` (replace with the right ip address)

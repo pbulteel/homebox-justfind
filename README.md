@@ -11,9 +11,9 @@
    <a href="https://discord.gg/aY4DCkpNA9">Discord</a>
 </p>
 <p align="center" style="width: 100%;">
-    <img src="https://img.shields.io/github/check-runs/sysadminsmedia/homebox/main" alt="Github Checks"/>
-    <img src="https://img.shields.io/github/license/sysadminsmedia/homebox"/>
-    <img src="https://img.shields.io/github/v/release/sysadminsmedia/homebox?sort=semver&display_name=release"/>
+    <img src="https://img.shields.io/github/check-runs/pbulteel/homebox-justfind/main" alt="Github Checks"/>
+    <img src="https://img.shields.io/github/license/pbulteel/homebox-justfind"/>
+    <img src="https://img.shields.io/github/v/release/pbulteel/homebox-justfind?sort=semver&display_name=release"/>
     <img src="https://img.shields.io/weblate/progress/homebox?server=https%3A%2F%2Ftranslate.sysadminsmedia.com"/>
 </p>
 <p align="center" style="width: 100%;">
@@ -67,9 +67,9 @@ docker run -d \
   --publish 3100:7745 \
   --env TZ=Europe/Bucharest \
   --volume /path/to/data/folder/:/data \
-  ghcr.io/sysadminsmedia/homebox:latest
-# ghcr.io/sysadminsmedia/homebox:latest-rootless
-# ghcr.io/sysadminsmedia/homebox:latest-hardened
+  ghcr.io/pbulteel/homebox-justfind:latest
+# ghcr.io/pbulteel/homebox-justfind:latest-rootless
+# ghcr.io/pbulteel/homebox-justfind:latest-hardened
 ```
 
 <!-- CONTRIBUTING -->
@@ -92,6 +92,6 @@ We want to make sure that Homebox is available in as many languages as possible.
 - Logo by [@lakotelman](https://github.com/lakotelman)
 
 ### Contributors
-<a href="https://github.com/sysadminsmedia/homebox/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sysadminsmedia/homebox" />
+<a href="https://github.com/pbulteel/homebox-justfind/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pbulteel/homebox-justfind" />
 </a>

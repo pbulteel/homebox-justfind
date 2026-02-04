@@ -42,12 +42,12 @@ Modify your `docker-compose.yml` file to point to the new Homebox fork:
 - Replace:  
   `ghcr.io/hay-kot/homebox:latest`  
   **With:**  
-  `ghcr.io/sysadminsmedia/homebox:latest`
+  `ghcr.io/pbulteel/homebox-justfind:latest`
 
 - If you're using the rootless image, replace:  
   `ghcr.io/hay-kot/homebox:latest-rootless`  
   **With:**  
-  `ghcr.io/sysadminsmedia/homebox:latest-rootless`
+  `ghcr.io/pbulteel/homebox-justfind:latest-rootless`
 
 - Update the environment variable:  
   - If you're using `HBOX_STORAGE_SQLITE_URL`, change it to `HBOX_DATABASE_SQLITE_PATH`.

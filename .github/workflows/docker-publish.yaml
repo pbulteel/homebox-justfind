@@ -26,7 +26,7 @@ on:
       - 'docs/**'
 
 env:
-  DOCKERHUB_REPO: sysadminsmedia/homebox
+  DOCKERHUB_REPO: pbulteel/homebox-justfind
   GHCR_REPO: ghcr.io/${{ github.repository }}
 
 permissions:

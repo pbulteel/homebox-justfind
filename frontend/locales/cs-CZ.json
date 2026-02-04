@@ -402,7 +402,7 @@
         "follow_dev": "Sledovat vývojáře",
         "footer": {
             "api_link": "'<a href=\"https://homebox.software/en/api/\" target=\"_blank\">'API'</a>'",
-            "version_link": "'<'a href=\"https://github.com/sysadminsmedia/homebox/releases/tag/v{ version }\" target=\"_blank\">' Verze: { version } Sestavení: { build }'</a>'"
+            "version_link": "'<'a href=\"https://github.com/pbulteel/homebox-justfind/releases/tag/v{ version }\" target=\"_blank\">' Verze: { version } Sestavení: { build }'</a>'"
         },
         "github": "GitHub projekt",
         "insured": "Pojištěné",
@@ -763,7 +763,7 @@
             "input_placeholder": "Zadejte zde",
             "instruction_1": "Generátor štítků HomeBox je nástroj, který vám pomůže tisknout štítky pro váš inventář HomeBox. Tyto štítky jsou určeny k\n předběžnému tisku, takže můžete vytisknout mnoho štítků a mít je připravené k použití",
             "instruction_2": "Tyto štítky fungují tak, že na štítek vytisknou kód URL QR a informace AssetID. Pokud jste zakázali AssetID\n v nastavení HomeBoxu, můžete tento nástroj stále používat, ale AssetID nebude odkazovat na žádnou položku",
-            "instruction_3": "Tato funkce je v rané fázi vývoje a v budoucích verzích se může změnit, pokud máte zpětnou vazbu, uveďte ji prosím\n do ' <a href=\"https://github.com/sysadminsmedia/homebox/discussions/53\">'Diskuze na GitHubu'</a>'",
+            "instruction_3": "Tato funkce je v rané fázi vývoje a v budoucích verzích se může změnit, pokud máte zpětnou vazbu, uveďte ji prosím\n do ' <a href=\"https://github.com/pbulteel/homebox-justfind/discussions/53\">'Diskuze na GitHubu'</a>'",
             "label_height": "Výška štítku",
             "label_width": "Šířka štítku",
             "measure_type": "Typ měření",

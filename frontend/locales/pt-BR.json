@@ -282,7 +282,7 @@
         "follow_dev": "Seguir o desenvolvedor",
         "footer": {
             "api_link": "'<a href=\"https://homebox.software/en/api/\" target=\"_blank\">'API'</a>'",
-            "version_link": "'<'a href=\"https://github.com/sysadminsmedia/homebox/releases/tag/{ version }\" target=\"_blank\"'>' Versão: { version } Compilação: { build } '</a>'"
+            "version_link": "'<'a href=\"https://github.com/pbulteel/homebox-justfind/releases/tag/{ version }\" target=\"_blank\"'>' Versão: { version } Compilação: { build } '</a>'"
         },
         "github": "Projeto GitHub",
         "insured": "Segurado",
@@ -613,7 +613,7 @@
             "input_placeholder": "Digite aqui",
             "instruction_1": "O Gerador de Etiquetas Homebox é uma ferramenta para ajudar você a imprimir etiquetas para o seu inventário Homebox. Elas são projetadas para\nserem etiquetas de impressão antecipada, para que você possa imprimir várias etiquetas e tê-las prontas para aplicar",
             "instruction_2": "Dessa forma, essas etiquetas funcionam imprimindo um código QR de URL e informações de AssetID em uma etiqueta. Se você desativou\nos AssetIDs nas configurações do seu Homebox, ainda poderá usar esta ferramenta, mas os AssetIDs não farão referência a nenhum item",
-            "instruction_3": "Este recurso está em estágios iniciais de desenvolvimento e pode mudar em versões futuras. Se você tiver algum feedback,\nfaça-o na '<a href=\"https://github.com/sysadminsmedia/homebox/discussions/53\">'Discussão do GitHub'</a>'",
+            "instruction_3": "Este recurso está em estágios iniciais de desenvolvimento e pode mudar em versões futuras. Se você tiver algum feedback,\nfaça-o na '<a href=\"https://github.com/pbulteel/homebox-justfind/discussions/53\">'Discussão do GitHub'</a>'",
             "label_height": "Altura da Etiqueta",
             "label_width": "Largura da Etiqueta",
             "measure_type": "Tipo da Medida",

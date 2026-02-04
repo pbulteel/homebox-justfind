@@ -233,7 +233,7 @@
         "follow_dev": "Følg udvikleren",
         "footer": {
             "api_link": "'<a href=\"https://homebox.software/en/api/\" target=\"_blank\">'API'</a>'",
-            "version_link": "'<'a href=\"https://github.com/sysadminsmedia/homebox/releases/tag/{ version }\" target=\"_blank\"'>' Version: { version } Build: { build } '</a>'"
+            "version_link": "'<'a href=\"https://github.com/pbulteel/homebox-justfind/releases/tag/{ version }\" target=\"_blank\"'>' Version: { version } Build: { build } '</a>'"
         },
         "github": "GitHub projekt",
         "insured": "Forsikret",
@@ -564,7 +564,7 @@
             "input_placeholder": "Skriv her",
             "instruction_1": "Homebox Label Generator er et værktøj, der hjælper dig med at udskrive etiketter til dit Homebox-lager. Disse er beregnet til\nat være etiketter, der kan udskrives på forhånd, så du kan udskrive mange etiketter og have dem klar til påsætning.",
             "instruction_2": "Disse etiketter fungerer derfor ved at udskrive en URL, QR-kode og AssetID-oplysninger på en etiket. Hvis du har deaktiveret\nAssetID'er i dine Homebox-indstillinger, kan du stadig bruge dette værktøj, men AssetID'erne vil ikke referere til nogen varer.",
-            "instruction_3": "Denne funktion er i de tidlige udviklingsfaser og kan ændres i fremtidige udgivelser. Hvis du har feedback, bedes\ndu give den i '<a href=\"https://github.com/sysadminsmedia/homebox/discussions/53\">'GitHub-diskussionen'</a>'",
+            "instruction_3": "Denne funktion er i de tidlige udviklingsfaser og kan ændres i fremtidige udgivelser. Hvis du har feedback, bedes\ndu give den i '<a href=\"https://github.com/pbulteel/homebox-justfind/discussions/53\">'GitHub-diskussionen'</a>'",
             "label_height": "Etikethøjde",
             "label_width": "Etiketbredde",
             "measure_type": "Målingstype",

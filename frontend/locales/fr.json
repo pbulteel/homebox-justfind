@@ -356,7 +356,7 @@
         "follow_dev": "Suivre le développeur",
         "footer": {
             "api_link": "'<a href=\"https://homebox.software/en/api/\" target=\"_blank\">'API'</a>'",
-            "version_link": "'<'a href=\"https://github.com/sysadminsmedia/homebox/releases/tag/v{ version }\" target=\"_blank\"'>' Version: { version } Build: { build } '</a>'"
+            "version_link": "'<'a href=\"https://github.com/pbulteel/homebox-justfind/releases/tag/v{ version }\" target=\"_blank\"'>' Version: { version } Build: { build } '</a>'"
         },
         "github": "Projet GitHub",
         "insured": "Assuré",
@@ -709,7 +709,7 @@
             "input_placeholder": "Tapez ici",
             "instruction_1": "Le générateur d'étiquettes Homebox est un outil pour vous aider à imprimer des étiquettes pour votre inventaire Homebox. Celles-ci sont destinées à\n être des étiquettes pré-imprimées vous permettant d'en imprimer beaucoup à l'avance et de les avoir prêtes à être appliquées",
             "instruction_2": "En tant que telles, ces étiquettes fonctionnent en imprimant un code QR d'URL et des informations d'ID de Ressource sur une étiquette. Si vous avez désactivé\n les ID de Ressource dans vos paramètres Homebox, vous pouvez quand même utiliser cet outil, mais les ID de Ressource ne référenceront aucun article",
-            "instruction_3": "Cette fonctionnalité en est aux premiers stades de développement et peut changer dans les versions futures, si vous avez du feedback, veuillez\n le fournir dans la '<a href=\"https://github.com/sysadminsmedia/homebox/discussions/53\"> 'Discussion GitHub'</a>'",
+            "instruction_3": "Cette fonctionnalité en est aux premiers stades de développement et peut changer dans les versions futures, si vous avez du feedback, veuillez\n le fournir dans la '<a href=\"https://github.com/pbulteel/homebox-justfind/discussions/53\"> 'Discussion GitHub'</a>'",
             "label_height": "Hauteur de l'étiquette",
             "label_width": "Largeur de l’étiquette",
             "measure_type": "Type de mesure",

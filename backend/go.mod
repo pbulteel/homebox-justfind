@@ -1,4 +1,4 @@
-module github.com/sysadminsmedia/homebox/backend
+module github.com/pbulteel/homebox-justfind/backend
 
 go 1.25
 

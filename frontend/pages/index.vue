@@ -258,7 +258,7 @@
           <div class="z-10 ml-auto mt-6 flex items-center gap-4 sm:mt-0">
             <Tooltip>
               <TooltipTrigger as-child>
-                <a href="https://github.com/sysadminsmedia/homebox" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/pbulteel/homebox-justfind" target="_blank" rel="noopener noreferrer">
                   <MdiGithub class="size-8" />
                 </a>
               </TooltipTrigger>

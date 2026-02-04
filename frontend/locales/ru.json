@@ -402,7 +402,7 @@
         "follow_dev": "Подписаться",
         "footer": {
             "api_link": "'<a href=\"https://homebox.software/en/api/\" target=\"_blank\">'API'</a>'",
-            "version_link": "'<'a href=\"https://github.com/sysadminsmedia/homebox/releases/tag/v{ version }\" target=\"_blank\"'>' Версия: { version } Сборка: { build } '</a>'"
+            "version_link": "'<'a href=\"https://github.com/pbulteel/homebox-justfind/releases/tag/v{ version }\" target=\"_blank\"'>' Версия: { version } Сборка: { build } '</a>'"
         },
         "github": "Github-репозиторий проекта",
         "insured": "Застрахован",
@@ -763,7 +763,7 @@
             "input_placeholder": "Введите здесь",
             "instruction_1": "Генератор этикеток Home Box помогает печатать наклейки для инвентаризации имущества в вашем Home Box. Вы можете заранее\nраспечатать все необходимые этикетки и, в дальнейшем, использовать их по мере необходимости",
             "instruction_2": "Этикетка содержит QR-код с URL-ссылкой на тот или иной предмет и его инвентарный номер. Если вы отключили\n инвентарные номера в настройках Home Box - вы всё равно cможете использовать этот инструмент, но инвентарные номера не будут связаны с конкретными предметами",
-            "instruction_3": "Эта функция находится на раннем этапе разработки и может измениться в будущих выпусках. \nЕсли у вас есть мнение по поводу того, как она должна работать, оставьте, пожалуйста, отзыв о ней в '<a href=\"https://github.com/sysadminsmedia/homebox/discussions/53\">обсуждении на GitHub</a>'",
+            "instruction_3": "Эта функция находится на раннем этапе разработки и может измениться в будущих выпусках. \nЕсли у вас есть мнение по поводу того, как она должна работать, оставьте, пожалуйста, отзыв о ней в '<a href=\"https://github.com/pbulteel/homebox-justfind/discussions/53\">обсуждении на GitHub</a>'",
             "label_height": "Высота этикетки",
             "label_width": "Ширина этикетки",
             "measure_type": "Тип измерения",
