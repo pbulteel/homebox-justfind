@@ -1,8 +1,8 @@
 <template>
 <svg
-   width="511.99997"
-   height="511.99997"
-   viewBox="0 0 135.46666 135.46667"
+   width="429.8598"
+   height="416.7775"
+   viewBox="0 0 113.73374 110.27239"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.5"
-     inkscape:cx="234"
-     inkscape:cy="225"
+     inkscape:cx="190"
+     inkscape:cy="177"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -37,7 +37,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-7.1432829,-77.209572)"><g
+     transform="translate(-18.009741,-89.806711)"><g
        id="g17"
        transform="matrix(1.207947,0,0,1.2018585,-56.025027,-51.774143)"><ellipse
          style="fill:#f08422;fill-opacity:1;stroke-width:0.268403"
