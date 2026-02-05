@@ -15,6 +15,7 @@
   import LanguageSelector from "~/components/App/LanguageSelector.vue";
   import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
   import AppLogo from "~/components/App/Logo.vue";
+  import AppText from "~/components/App/HeaderText.vue";
   import FormTextField from "~/components/Form/TextField.vue";
   import FormPassword from "~/components/Form/Password.vue";
   import FormCheckbox from "~/components/Form/Checkbox.vue";
@@ -240,7 +241,7 @@
       >
         <div class="z-10">
           <h2 class="mt-1 flex text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            <AppLogo class="-mb-4 w-12" />
+            <AppText class="-mb-4 w-12" />
           </h2>
           <p
             class="ml-1 text-lg"
