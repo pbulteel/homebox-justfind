@@ -83,14 +83,6 @@ jobs:
             type=schedule,pattern=nightly
           flavor: |
             suffix=-hardened,onlatest=true
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@184bdaa0721073962dff0199f1fb9940f07167d1
-        if: (github.event_name == 'schedule' || startsWith(github.ref, 'refs/tags/'))
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-
       - name: Login to GHCR
         uses: docker/login-action@184bdaa0721073962dff0199f1fb9940f07167d1
         with:
