@@ -240,7 +240,7 @@
         }"
       >
         <div class="z-10">
-          <h2 class="mt-1 flex text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+          <h2 class="mt-10 flex text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             <AppText class="-mb-4 w-64" />
           </h2>
           <p
