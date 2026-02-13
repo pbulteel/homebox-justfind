@@ -24,7 +24,7 @@
             $t("global.welcome", { username: username })
           }}</SidebarGroupLabel>
           <NuxtLink class="group-data-[collapsible=icon]:hidden" to="/home">
-            <div class="relative z-50 flex size-40 -mt-8 items-center justify-center rounded-full bg-background-accent p-0">
+            <div class="relative z-50 flex size-40 -mt-1 items-center justify-center rounded-full bg-background-accent p-0">
               <AppLogo />
             </div>
           </NuxtLink>
